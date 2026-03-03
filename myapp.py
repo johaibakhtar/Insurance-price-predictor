@@ -43,7 +43,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ---------------- Load Model ----------------
-model = joblib.load("C:/Users/JOHAIB AKHTAR/Downloads/insurance_model.pkl")
+model = joblib.load("insurance_model.pkl")
 
 # ---------------- Title ----------------
 st.title("💰 Insurance Charges Predictor")
